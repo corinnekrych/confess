@@ -1,0 +1,394 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  <style>
+    stop.begin { stop-color:yellow; }
+    stop.end { stop-color:green; }
+    body.invalid stop.end { stop-color:red; }
+    #err { display:none; }
+    body.invalid #err { display:inline; }
+  </style>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>Hybrid Mobile Apps in minutes</title>
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+    <link href="css/slides.css" rel="stylesheet" />
+    <link href="css/prism.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="favicon.png" />
+
+    <script src="js/jquery-1.7.2.min.js"></script>
+    <script src="js/jcloud.js"></script>
+  </head>
+    <body class="impress-not-supported">
+
+    <div class="fallback-message">
+      <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+      <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+    </div>
+
+    <div id="impress">
+      <!-- Show an overview of the presentation -->
+      <div id="my-overview" class="step" data-x="0" data-y="0" data-scale="12">
+      </div>
+
+      <!-- Introduction section overview -->
+      <div id="introduction" class="step section" data-x="0" data-y="-3000" data-scale="3">
+        <h2>Hybrid Mobile App in minutes</h2>
+
+        <span>GoogleGuestPSK/C0g1tat0r!</span>
+      </div>
+
+
+      <div id="introduction-2" class="step section" data-x="-330" data-y="-3150" data-scale="0.6">
+        <h2>3musket33rs</h2><br/>
+            <div style="position:absolute; width:50%; botom: 0; left: 0;">
+                <img style="width: 30%; display: block; margin: 0 auto" src="images/fabrice_matrat.png"/>
+                <h4 style="font-size:20px;text-align:center">Fabrice Matrat<br/><b>@fabricematrat</b></h4><br/>
+                <img style="width: 30%; display: block; margin: 0 auto" src="images/blanch.jpg"/>
+                <h4 style="font-size:20px;text-align:center">Sebastien Blanc<br/><b>@sebi2706</b></h4>
+            </div>
+            <div style="position:absolute; width:50%; botom: 0; right: 0;">
+                <img style="width: 30%; display: block; margin: 0 auto" src="images/corinne.jpg"/>
+                <h4 style="font-size:20px;text-align:center">Corinne Krych<br/><b>@corinnekrych</b></h4><br/>
+                <img style="width: 30%; display: block; margin: 0 auto" src="images/mathieu.jpeg"/>
+                <h4 style="font-size:20px;text-align:center">Mathieu Bruyen<br/><b>@mathbruyen</b></h4>
+            </div>
+
+      </div>
+
+      <div id="introduction-3" class="step section" data-x="330" data-y="-3150" data-scale="0.6">
+        <h2>Foursquare</h2><br/>
+        <img style="display:block;margin-left:auto;margin-right:auto" src="images/foursquare.png" width="30%"/>
+      </div>
+
+      <div id="mobile1" class="step section" data-x="2953" data-y="-327" data-scale="3">
+    		<h2>Mobile Web App</h2>
+      </div>
+
+      <div id="mobile2" class="step slide" data-x="1963" data-y="-477" data-scale="0.6">
+        <h2>What is a mobile web app?</h2><br/>
+    			<div style="float: left; display: inline-block; width: 50%">
+    				<img src="images/twitter-timeline.png"  width="110%"/>
+    			</div>
+        	<div style="float:right;font-size:30px;text-align:right;display:inline-block;width: 50%">
+            <img src="images/facebook-wall.png"  width="105%"/>
+        	</div>
+      </div>
+
+      <div id="mobile3" class="step slide" data-x="2623" data-y="-477" data-scale="0.6">
+        <h2>Size matters...</h2>
+    			<div style="float: left; display: inline-block; width: 30%">
+    				<br/><br/><br/><img src="images/wikipedia-mobile.png"  width="60%"/>
+    			</div>
+        	<div style="float:right;font-size:30px;text-align:right;display:inline-block;width: 70%">
+            <br/><br/><img src="images/wikipedia-web.png"  width="100%"/>
+        	</div>
+      </div>
+
+      <div id="mobile4" class="step slide" data-x="3283" data-y="-477" data-scale="0.6">
+       <h2>Interactions</h2>
+      <br/><img style="display:block;margin-left:auto;margin-right:auto" src="images/awful-eyes.png" width="70%"/>  
+
+      </div>
+    
+    <div id="mobile5" class="step slide" data-x="3943" data-y="-477" data-scale="0.6">
+        <h2>Geolocation</h2>
+        <br/><img style="display:block;margin-left:auto;margin-right:auto" src="images/geolocation.jpeg" width="70%"/>  
+    </div>
+      
+    <div id="mobile6" class="step slide" data-x="3943" data-y="3" data-scale="0.6">
+
+        <h2>Surviving offline</h2>
+        <br/><img style="display:block;margin-left:auto;margin-right:auto" src="images/offline.png" width="70%"/>
+    </div>
+
+      <div id="mobile7" class="step slide" data-x="3943" data-y="483" data-scale="0.6">
+        <h2>How to...</h2>
+        <img style="display:block;margin-left:auto;margin-right:auto" src="images/transformer.png" width="70%"/> 
+      </div>
+
+      <div id="mobile8" class="step slide" data-x="3283" data-y="483" data-scale="0.6">
+      	<h2>Responsive Web Design</h2><br>
+      	  <div style="float: left; font-size: 25px; text-align: left; display: inline-block; width: 40%">
+      	  	<b>What is it?</b><br/>
+            No more zooming, scrolling!<br/><br/>
+            <b>Which techniques?</b><br/>
+            . media queries<br/>
+            . fluid grid<br/>
+            . fexible images<br/>
+          </div>
+        <div style="float:right;font-size:30px;text-align:right;display:inline-block;width: 40%">
+          <br/><br/><img style="display:block;margin-left:auto;margin-right:auto" src="images/responsive.jpg"  width="100%"/>
+        </div>
+      </div>
+
+      <div id="mobile9" class="step slide" data-x="2623" data-y="483" data-scale="0.6">
+      	<h2>Progressive enhancement</h2>
+      	<!-- https://avventa.atlassian.net/wiki/display/SOL/Responsive+Web+Design+and+Progressive+Enhancement -->
+        <div style="font-size:30px;text-align:right;display:inline-block;">
+          <br/><img style="display:block;margin-left:auto;margin-right:auto" src="images/light_bulb.jpg"  width="70%"/>
+        </div>
+      </div>
+
+      <div id="mobile10" class="step slide" data-x="1963" data-y="483" data-scale="0.6">
+      	<h2>Which tools?</h2>
+      	  <div style="float: left; display: inline-block; width:40%">
+    				<br/><br/><img src="images/jqm-logo.png"  width="100%"/>
+    				<br/><br/><img src="images/sencha.png"  width="100%"/>
+    			</div>
+        	<div style="float:right;font-size:30px;text-align:right;display:inline-block;width: 40%">
+        		<br/><br/><br/><img src="images/jQMobi.png"  width="100%"/>
+            <br/><br/><img src="images/bootstrap.jpg"  width="100%"/>
+        	</div>        
+      </div>
+      
+     <div id="mobile11" class="step slide" data-x="1963" data-y="3" data-scale="0.6">
+        <h2>Going native</h2><br>
+        
+        <img style="display:block;margin-left:auto;margin-right:auto" src="images/avatar_hybrid.jpg"  width="80%"/>
+        <div style="font-size:20px;text-align:center;">
+        as hybrid
+        </div>
+     </div>
+
+     <div id="mobile12" class="step slide" data-x="2623" data-y="3" data-scale="0.6">
+       <h2>Cordova</h2><br>
+          <img style="display:block;margin-left:auto;margin-right:auto" src="images/gap.jpg"  width="40%"/>
+  
+     </div>
+
+      <div id="mobile13" class="step slide" data-x="3283" data-y="3" data-scale="0.6">
+        <h2>PhoneGap Build</h2>
+          <img style="display:block;margin-left:auto;margin-right:auto" src="images/phonegap_build.png"  width="100%"/>
+      </div>
+
+      <div id="grails1" class="step section" data-x="-1763" data-y="2427" data-scale="3">
+        <img width="100%"src="images/grails.png"/>
+      </div>
+      <div id="grails2" class="step slide" data-x="-2753" data-y="2277" data-scale="0.6">
+        <h2>Full-Stack Framework</h2>
+        <div style="float: left; font-size: 30px; text-align: left; display: inline-block; width: 40%">
+              <div style="text-align: left;"><br/><br/>
+            <b>. Presentation</b><br/>
+            <b>. Business logic</b><br/>
+            <b>. Persistence</b><br/>
+            <b>. Build & Test</b><br/>
+            <b>. Documentation</b><br/>
+          </div>
+        </div>
+        <div style="float:right;font-size:30px;text-align:right;display:inline-block;">
+          <br/><img src="images/mobile.png"  width="400" height="500"/>
+        </div>
+      </div>
+
+    
+      <div id="grails3" class="step slide" data-x="-2093" data-y="2277" data-scale="0.6">
+        <h2>An evolution</h2>
+        <img src="images/grails-evolution.bmp"  width="100%"/>
+        <br/>
+        <div style="font-size: 25px;"><b>Leverages existing resources</b>
+        </div>
+        <div style="font-size: 15px;"><b>(works with "JVM friendly" hardware, software and humans)</b>
+        </div>
+        <div style="font-size: 25px;"><b>Build upon industry-proven technologies</b></div>
+        <div style="font-size: 15px;"><b>(established, well tested and scalable Java frameworks & libraries)</b></div>
+    </div>
+
+      <div id="grails4" class="step slide" data-x="-1433" data-y="2277" data-scale="0.6">
+        <h2>Convention over Configuration</h2>
+        <div style="float: left; font-size: 25px; text-align: left; display: inline-block; width: 40%">
+          <div style="text-align: left;"><br/>
+            <b>. No more painful XML settings</b><br/><br/>
+            <b>. 80 / 20 rule</b><br/></br>
+            <b>. Don't repeat yourself (DRY)</b><br/><br/>
+          </div>
+        </div>
+        <div style="float:right;font-size:30px;text-align:right;display:inline-block;">
+          <img src="images/coc.png"  width="400" height="500"/>
+        </div>
+      </div>
+
+      <div id="grails5" class="step slide" data-x="-773" data-y="2277" data-scale="0.6">
+        <h2>Domain Driven Design</h2>
+        <div style="float: left; font-size: 25px; text-align: left; display: inline-block; width: 50%">
+          <div style="text-align: left;"><br/><br/><br/>
+            <b>. Focus on the domain, rather than technology</b><br/></br>
+            <b>. Rapid prototyping</b><br/><br/>
+            <b>. Adaptable architecture</b><br/><br/>
+          </div>
+        </div>
+        <div style="float:right;text-align:right;display:inline-block;width: 50%">
+          <br/><br/><img src="images/mini.jpg"  width="100%"/>
+        </div> 
+      </div>
+
+    <div id="grails6" class="step slide" data-x="-773" data-y="2751" data-scale="0.6">
+        <h2>Magic Scaffolding</h2>
+          <br/><img style="display:block;margin-left:auto;margin-right:auto" src="images/scaffold.jpg"  width="70%"/> 
+    </div>
+
+      <div id="grails7" class="step slide" data-x="-773" data-y="3231" data-scale="0.6">
+        <h2>Grails Plugin System</h2>
+          <div style="text-align: left;">
+            <b>. 1000+ plugins</b></br>
+            <b>. Modularized app architecture</b><br/>
+            <b>. Reuse established Java libraries</b><br/>
+          </div>
+        <div style="float: left; font-size: 25px; text-align: left; display: inline-block; width: 33%">
+        	<img src="images/lego1.png"  width="100%"/>
+        </div>
+        <div style="float: left; font-size: 25px; text-align: left; display: inline-block; width: 33%">
+        	<img src="images/lego2.png"  width="100%"/>
+        </div>        
+        <div style="float:right;text-align:right;display:inline-block;width: 33%">
+          <img src="images/lego3.png"  width="100%"/>
+        </div>  
+      </div>
+
+      <div id="grails8" class="step slide" data-x="-1433" data-y="3231" data-scale="0.6">
+        <h2>Grails Mobile Plugin</h2>
+        <div style="float: left; font-size: 25px; text-align: right; display: inline-block; width: 50%"><br/>
+            <p><b>jQuery Mobile scaffolding</b></p> 
+            <span style="font-size: 20px;">by R. Fletcher & S. Blanc</span></br>
+            <b>Geolocation</b><br/>
+            <span style="font-size: 20px;">by S. Blanc</span></br>
+            <b>Spring mobile</b><br/>
+            <span style="font-size: 20px;">by S. Blanc</span></br>
+            <b>HTML5 mobile scaffolding</b><br/>
+            <span style="font-size: 20px;">by 3musket33rs</span></br>
+            <b>PhoneGap build</b><br/>
+            <span style="font-size: 20px;">by 3musket33rs</span></br>
+            <br/>
+            <a href="3musket33rs.github.com">3musket33rs.github.com</a>
+        </div>
+        <div style="width:50%;float:right;font-size:30px;text-align:right;display:inline-block;">
+            <br/><iframe src="3musket33rs.html" width="400" height="500" name="myFrame" id="myFrame"></iframe>
+        </div>
+
+         
+      </div>
+
+      <div id="grails9" class="step slide" data-x="-2093" data-y="3231" data-scale="0.6">
+       <h2>Groovy</h2>
+        <div style="float: left; font-size: 30px; text-align: left; display: inline-block; width: 50%"><br/>
+            <p><b>Dynamic language</b></p> 
+            <span style="font-size: 18px;">running on the <b>JVM</b></span></br>
+            <b>Modern features</b><br/>
+            <span style="font-size: 20px;">closure, collection...</span></br>
+            <p><b>Statically type check</b></p> 
+            <span style="font-size: 20px;">and statically compiled ideal for Java scripting</span></br>
+            <b>Almost-zero learning curve</b><br/>
+            <b>Domain-Specific Language</b><br/>
+            <span style="font-size: 20px;">Perfect companion for embedded DSL</span></br>
+            <span style="font-size: 20px;"><b>Spock</b> awsome testing framework</span></br>
+            <span style="font-size: 20px;"><b>Gradle</b> official <b>Android build system</b></span></br>
+            <b>Simplify mocking testing</b><br/>
+            <br/>
+        </div>
+         <div style="float:right;text-align:right;display:inline-block;width: 50%">
+          <br/><br/><img src="images/groovy.png"  width="100%"/>
+        </div> 
+       </div>
+
+      <div id="grails10" class="step" data-x="-2753" data-y="3231" data-scale="0.6">
+        <div width ="60%" id="wordcloud" >
+            <span data-weight="9">syntax sugar</span>
+            <span data-weight="7">less punctuation</span>
+            <span data-weight="5">scripting </span>
+            <span data-weight="7">binding</span>
+            <span data-weight="3">no getter setter</span>
+            <span data-weight="7">map</span>
+            <span data-weight="8">named parameters</span>
+            <span data-weight="6">closure</span>
+            <span data-weight="4">GString</span>
+            <span data-weight="2">public visibility</span>
+            <span data-weight="1">return statement optional</span>
+            <span data-weight="7">groovy truth</span>
+            <span data-weight="3">operator overloading</span>
+            <span data-weight="4">GroovyMarkup</span>
+            <span data-weight="7">method pointer</span>
+            <span data-weight="6">runtime transformation</span>
+            <span data-weight="8">MOP</span>
+            <span data-weight="6">Expando</span>
+            <span data-weight="2">Categories</span>
+            <span data-weight="5">methodMissing</span>
+            <span data-weight="8">command chaining</span>
+            <span data-weight="7">compile time transformation</span>
+            <span data-weight="4">AST transformation</span>
+            <span data-weight="3">CST transformation</span>
+        </div>   
+      </div>
+
+<!--     <div id="grails11" class="step slide" data-x="-2753" data-y="2751" data-scale="0.6">
+ 
+      </div>     
+
+      <div id="grails12" class="step " data-x="-2093" data-y="2751" data-scale="0.6">
+
+      </div> -->
+
+      <!-- Conclusion -->
+      <div id="conclusion" class="step section" data-x="-2953" data-y="-327" data-scale="3">
+        <h2>Demo time!</h2>
+    <div style="float:left;width:500px;"><br/>
+       <div style="font-size:30px;font-weight:bold">Some links</div> 
+
+      <a href="http://3musket33rs.github.com" style="font-size:20px;">http://3musket33rs.github.com</a>
+<br>
+      <a href='http://tagmyfriends.cloudfoundry.com' style="font-size:20px;">http://tagmyfriends.cloudfoundry.com</a>
+    </div>
+    
+    <div style="float:right;width:300px;">    <br/>
+      <div style="font-size:30px;font-weight:bold">Special Thanks</div><br/>
+      <div style="font-size:20px;">Sebastien Blanc</div>
+      <div style="font-size:20px;">David Trattnig</div> 
+         
+    <div> 
+    </div>
+
+    <div class="hint">
+      <p>Use a spacebar or arrow keys to navigate</p>
+    </div>
+    <script>
+(function () {
+  function enhance (element) {
+    var txt = element.querySelector('code');
+    var canvas = element.querySelector('canvas');
+    var ctx = canvas.getContext('2d');
+    eval(txt.innerHTML);
+  }
+  var demos = document.querySelectorAll('.livedemo');
+  for (var i = 0; i < demos.length; i++) {
+    enhance(demos.item(i));
+  }
+})();
+    </script>
+    <script src="js/prism.js"></script>
+    <script>
+      if ("ontouchstart" in document.documentElement) { 
+        document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+      }
+    </script>
+    <script src="js/prism.js"></script>
+    <script src="js/impress.js"></script>
+    <script>impress().init();</script>
+    <script>
+    var settings = {
+        "size" : {
+            "grid" : 22,
+            "factor" : 0, // font resize factor, 0 means automatic
+            "normalize" : true // reduces outliers for more attractive output
+        },
+        "options" : {
+            "color" : "random-dark",
+            "printMultiplier" : 1,
+            "rotationRatio" : 0, // 0 is all horizontal, 1 is all vertical
+            "printMultiplier" : 3 // set to 3 for nice printer output; higher numbers take longer
+        },
+        "shape" : "square"
+    };
+    $("#wordcloud").awesomeCloud( settings );
+    </script>
+  </body>
+</html>
