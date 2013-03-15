@@ -201,9 +201,9 @@ a:focus {
 h2 {
   text-align: center;
   color: white;
-  background-color: rgb(64, 113, 7);
-  box-shadow: 3px 3px 5px rgb(64, 113, 7);
-  border-radius: 15px;
+  background-color: #6495ED;
+  box-shadow: 3px 3px 5px #6495ED;
+  border-radius: 10px;
 }
 
 /*
