@@ -11,7 +11,7 @@ add
   grails.plugin.location."phonegapbuild" = "../phonegapbuild"
 
 in plugins
-'''java
+```java
     plugins {
         runtime ":hibernate:$grailsVersion"
         runtime ":jquery:1.9.1"
@@ -23,7 +23,7 @@ in plugins
         // to fix cf/springsecurity issue
         compile ":webxml:1.4.1"
     }
-'''
+```
 
 
 ### Speakers
