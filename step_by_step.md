@@ -1,16 +1,17 @@
-## Presentation for [ConFESS](https://2013.con-fess.com/)
+Presentation for [ConFESS](https://2013.con-fess.com/)
+--------------------------
 This github repository hold all the slides material required to follow the step by step tutoreial to build a clone of Fousquare in a few minutes. The application we're going to build will be name ThreeCircle ;-)
 
-### Step1: Scaffolding
-create-app
-----------
+## Step1: Scaffolding
+###create-app
 grails create-app ThreeCircles
-BuildConfig.groovy
-------------------
+###BuildConfig.groovy
 add
-grails.plugin.location."html5-mobile-scaffolding" = "../html5-mobile-scaffolding"
-grails.plugin.location."phonegapbuild" = "../phonegapbuild"
+  grails.plugin.location."html5-mobile-scaffolding" = "../html5-mobile-scaffolding"
+  grails.plugin.location."phonegapbuild" = "../phonegapbuild"
+
 in plugins
+'''java
     plugins {
         runtime ":hibernate:$grailsVersion"
         runtime ":jquery:1.9.1"
@@ -22,6 +23,7 @@ in plugins
         // to fix cf/springsecurity issue
         compile ":webxml:1.4.1"
     }
+'''
 
 
 ### Speakers
