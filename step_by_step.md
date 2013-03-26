@@ -4,7 +4,7 @@ This github repository hold all the slides material required to follow the step 
 ### Step1: Scaffolding
 create-app
 ----------
-> grails create-app ThreeCircles
+grails create-app ThreeCircles
 BuildConfig.groovy
 ------------------
 add
