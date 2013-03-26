@@ -3,13 +3,14 @@ Presentation for [ConFESS](https://2013.con-fess.com/)
 This github repository hold all the slides material required to follow the step by step tutoreial to build a clone of Fousquare in a few minutes. The application we're going to build will be name ThreeCircle ;-)
 
 ## Step1: Scaffolding
-###create-app
+### create-app
 grails create-app ThreeCircles
-###BuildConfig.groovy
+### BuildConfig.groovy
 add
+```java
   grails.plugin.location."html5-mobile-scaffolding" = "../html5-mobile-scaffolding"
   grails.plugin.location."phonegapbuild" = "../phonegapbuild"
-
+```
 in plugins
 ```java
     plugins {
@@ -24,7 +25,16 @@ in plugins
         compile ":webxml:1.4.1"
     }
 ```
+in UrlMappings.groovy
+remove
+```java
+  	"/"(view:"/index")
+```
+### Create domain classes
+grails create-domain-class User
+edit generated domain class and add content according to class diagram
 
+## Step2: Boostrap
 
 ### Speakers
 - [Corinne Krych](http://corinnekrych.github.com/)
